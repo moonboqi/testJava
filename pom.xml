@@ -56,6 +56,12 @@
     	<artifactId>json</artifactId>
     	<version>20140107</version>
     </dependency>
+    <!-- xml utils -->
+    <dependency>
+	    <groupId>com.thoughtworks.xstream</groupId>
+	    <artifactId>xstream</artifactId>
+	    <version>1.4.10</version>
+	</dependency>
     <!-- lombok -->
 	<dependency>
 		<groupId>org.projectlombok</groupId>

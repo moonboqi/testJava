@@ -49,4 +49,9 @@ public class Demo {
 			return;
 		}
 	}
+	
+	@Test
+	public void test3() throws Exception {
+		System.out.println(System.getProperty("java.vm.name"));
+	}
 }
