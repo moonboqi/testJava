@@ -1,5 +1,7 @@
 package com.alex.testJava;
 
+import static org.junit.Assert.*;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -30,5 +32,13 @@ public class App
     	final char value[] = new char[] {'a','b','c'};
     	value[0] = 'd';
     	System.out.println(value[0]);
+	}
+    
+    @Test
+	public void test3() throws Exception {
+    	while (true)
+    		          {
+    		              
+    		          }
 	}
 }	
