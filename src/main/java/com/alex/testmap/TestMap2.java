@@ -5,7 +5,12 @@ package com.alex.testmap;
 
 import static org.junit.Assert.*;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.junit.Test;
+
+import lombok.Data;
 
 /**
  * Title: TestMap2 Description:
@@ -50,9 +55,20 @@ public class TestMap2 {
 			}
 		}
 	}
+	@Test
+	public void testAdd() throws Exception {
+		Map<String, Student> map = new HashMap<>();
+		map.put("aa", new Student());
+		Student s = map.get("aa");
+		s.setName("张三");
+		s.setAge(18);
+		System.out.println(map.get("aa").toString());
+	}
+	
 
 }
 
+@Data
 class Student {
 	private String name;
 	private Integer age;

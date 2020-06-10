@@ -51,4 +51,12 @@ public class TestArray {
 		int[] arr = new int[] {1,4,2,3,5};
 		Arrays.sort(arr);
 	}
+	
+	@Test
+	public void test3() throws Exception {
+		String[] arr = new String[10];
+		arr[0] = "abc";
+		System.out.println(arr[0]==null);
+		System.out.println(arr[1]==null);
+	}
 }

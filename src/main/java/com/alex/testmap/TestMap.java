@@ -50,4 +50,15 @@ public class TestMap {
 		System.out.println(json2map.get("你好"));
 		System.out.println(json2map.get("!!!"));
 	}
+	
+	@Test
+	public void test3() throws Exception {
+		Map<String, String> map = new HashMap<>();
+		String str = map.get("a");
+		if(str==null) {
+			str = "b";
+//			map.put("a", "b");
+		}
+		System.out.println(map.get("a"));
+	}
 }

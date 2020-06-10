@@ -25,13 +25,13 @@ public class MyThread05 extends Thread {
 	}
 
 	public static void main(String[] args) {
-//		MyThread05 mt5 = new MyThread05();
-//		mt5.setName("haha");
+		MyThread05 mt5 = new MyThread05();
+		mt5.setName("haha");
 //		mt5.start();
-		Thread.currentThread().interrupt();
-	    System.out.println("是否停止1？" + Thread.interrupted());
-	    System.out.println("是否停止2？" + Thread.interrupted());
-	    System.out.println("是否停止3？" + Thread.interrupted());
-	    System.out.println("end!");
+//		Thread.currentThread().interrupt();
+//	    System.out.println("是否停止1？" + Thread.interrupted());
+//	    System.out.println("是否停止2？" + Thread.interrupted());
+//	    System.out.println("是否停止3？" + Thread.interrupted());
+//	    System.out.println("end!");
 	}
 }
